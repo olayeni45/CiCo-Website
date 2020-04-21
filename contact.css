@@ -1,0 +1,390 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.topContainer{
+    width:100vw;
+    height:350px;
+    background-color: #EDF3F8;  
+}
+
+#topCircle{
+    background-color: #82D4E8;
+    width:320px;
+    height:320px;
+    border-radius: 50%;
+    opacity:0.4;
+    position: relative;
+    z-index:1;
+    left:-70px;
+    top:-45px;
+}
+
+nav{
+ border-bottom:1px solid #dfdddd;
+    position: relative;
+    z-index:5;
+    top:-310px;
+  
+
+}
+
+#cicoLogo{
+    height:30px;
+}
+
+.navbar-nav{
+  
+    position: relative;
+    left:680px;
+    width:400px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-item{
+padding:6px;
+text-transform: uppercase;
+font-size:17px;
+font-family: Circular Std Book;
+color:black;
+font-weight: 500;
+}
+
+.termsHeader{
+    width:400px;
+    position: relative;
+    z-index:5;
+    top:-280px;
+
+   line-height: 35px;
+}
+
+#contact{
+    font-size:45px;
+    font-weight: 400;
+    color:#000000;
+}
+
+#us{
+    font-size:18px;
+    color:#000000;
+ 
+}
+
+#secondCircle{
+     background-color: #82D4E8;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    opacity:0.4;
+    position: relative;
+    z-index:1;
+    top:-245px;
+    left:160px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+.secondContainer{
+ position: relative;
+ z-index:5;
+    background-color: white;
+    width:100vw;
+    height:850px;
+}
+
+.firstHalf, .secondHalf{
+    
+    height:800px;
+}
+
+
+.formCircle{
+    background-color: #0FC17A;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity:0.8;
+    position: relative;
+    z-index:1;
+}
+
+#posA{
+    position: relative;
+    z-index:1;
+    top:55px;
+   left:40px;
+}
+
+#posB{
+    position: relative;
+    z-index:1;
+    top:-80px;
+  float:right;
+   left:-95px;
+}
+
+
+
+.gCircles{
+display:flex;
+}
+
+.faqGA{
+    position: relative;
+    float:right;
+    left:-30px;
+    top:-45px;
+    z-index: 5;
+opacity:0.8;
+z-index:1;
+}
+
+.faqGB{
+position: relative;
+top:-70px; 
+left:45px;  
+z-index: 1;
+opacity:0.8;
+z-index:1;
+}
+
+ .greenCircleA{
+width:3px;
+height:3px;
+margin:5px;
+border-radius: 50%;
+background-color: #0FC17A;       
+}
+
+
+
+
+
+
+
+
+
+.formBox{
+    width:430px;
+    height:600px;
+    background: #FFFFFF ;
+box-shadow: 0px 10px 20px #00000029;
+border-radius: 10px;
+position: relative;
+z-index:5;
+top: -20px;
+left:80px;
+}
+
+
+
+
+
+
+.form-style-1 {
+    width:380px;
+height:550px;
+margin:auto;
+position: relative;
+ top:30px;  
+
+}
+
+.form-style-1 li {         
+display: block;
+list-style: none;           
+margin: 10px 0 0 0;
+}
+
+.form-style-1 label {          
+margin: 0 0 8px 0;
+padding: 0px;
+display: block;
+font-weight:500;
+font-size:16px;
+position: relative;
+left:-35px;
+}
+
+input{          
+width:350px;
+height:55px;
+background: #FFFFFF ;
+border: 1px solid #797676;
+border-radius: 6px;
+opacity: 1;
+position: relative;
+left:-35px;
+}
+
+textarea{
+    width:350px;
+    height:170px;
+    position: relative;
+left:-35px;
+}
+
+#two{
+    position: relative;
+top:20px;
+}
+
+#three{
+    position: relative;
+top:40px;
+}
+  
+.formButton{
+ background: #0FC17A;
+color:white;
+text-transform: uppercase;
+font-size:18px;
+width:280px;
+height:50px;
+position: relative;
+top:65px;
+
+}
+
+
+
+
+.mapContainer{
+    width:410px;
+    height:500px;
+    
+    position: relative;
+
+top: 100px;
+left:100px;
+
+}
+
+#map{
+   width:390px;
+  height:270px;
+   
+}
+
+.details{
+    
+    height:250px;
+    position: relative;
+    top:20px;
+}
+
+.details > p{
+    text-transform: uppercase;
+    color:#000000;
+    font-size:40px;
+   
+}
+
+#icons{
+    
+    position: relative;
+    top:-10px;
+}
+
+
+#mail, #num, #address{
+    font-size:18px;
+    color:black;
+}
+
+#mail{
+    position: relative;
+    top:10px;
+    left:10px;
+}
+
+#num{
+    position: relative;
+    top:8px;
+    left:8px;
+}
+
+#address{
+    position: relative;
+    top:8px;
+    left:15px;
+}
+
+.row > img{
+height:27px; 
+margin:10px; 
+  position: relative;
+    left:10px;  
+}
+
+
+
+
+
+
+
+
+       .thirdContainer{
+        width:100vw;
+        height:220px;
+        position: relative;
+    }
+
+    .thirdContainer::after{
+        content:" ";
+        background:url('images/download-bg.png');
+        width:100%;
+        height:220px;
+     background-repeat: repeat-x;
+     background-size: contain;
+     position: absolute;
+     z-index:-1;
+     top:-1px;
+     opacity:0.2;
+    }
+
+    .endFlex{ 
+        height:130px;
+        margin:auto;
+        position:relative;
+        top:70px;
+    }
+
+    #wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo{
+        width:170px;
+    }
+    
+    #copyright{
+        color:#777777;
+        position:relative;
+        top:15px;
+    }
+
+    #logoFlex{
+    color:#777777;
+    font-size:25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:15px;
+    }
